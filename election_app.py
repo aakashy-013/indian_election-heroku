@@ -110,5 +110,5 @@ if result_type=='Constituency wise':
     st.header("Winner-")
     st.write(data_candidate_wise[data_candidate_wise['% of Votes'] == max])
     data_candidate_wise=data_candidate_wise.sort_values(by=['Total Votes'],ascending=False)
-    margin = data_candidate_wise.loc[[0],['Total Votes']].values-data_candidate_wise.loc[[1],['Total Votes']].values
-    st.write('Margin-',str(margin[0][0]))
+    margin = data_candidate_wise.iat[0,4]-data_candidate_wise.iat[1,4]
+    st.write('Margin-',str(margin))
