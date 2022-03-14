@@ -9,3 +9,4 @@ requests==2.27.1
 soupsieve==2.3.1
 streamlit==1.6.0
 XLML==0.1.2
+lxml==4.8.0
