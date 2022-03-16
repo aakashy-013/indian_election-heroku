@@ -1,12 +1,13 @@
-   .big-font {
-            font-size:20px !important;
-        }
-   .header {
+.big-font {
+   font-size:20px !important;
+}
+
+.header {
   padding: 10px;
   text-align: center;
-  color: white;
   font-size: 80px;
 }
+
 .snowflake {
   color: #FFF;
   font-size: 1em;
